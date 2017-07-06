@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusableInTouchMode="false"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_item_follower_image_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/img_border_background"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/img_item_follower_center_photo"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:sriv_border_color="@color/transparent"
+                app:sriv_border_width="5dp"
+                app:sriv_left_bottom_corner_radius="10dp"
+                app:sriv_left_top_corner_radius="10dp"
+                app:sriv_right_bottom_corner_radius="10dp"
+                app:sriv_right_top_corner_radius="10dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/rl_item_follower_image_border"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_item_follower_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdforgot_passowrd"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_item_follower_handle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="forgot_passowrd"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_item_follower_bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="forgot_passowrd"
+                android:textColor="@color/colorPrimary" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"></View>
+</LinearLayout>
