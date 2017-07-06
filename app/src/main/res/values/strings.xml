@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TwitterApiTesting</string>
+    <string name="log_out">log out</string>
+    <string name="language">عربي</string>
 </resources>

@@ -1,6 +1,6 @@
 package atef.twitterapitesting;
 /************************************************************************\
-			This code written by Tefa Alhwa
+						This code written by Tefa Alhwa
 			
 								 \|||||/
 								 /-----\
@@ -24,7 +24,9 @@ package atef.twitterapitesting;
 			couldn't understand it tell me and if you got any idea better
 			than mine tell me please thank you and don't small us :)
 			
-						I Think I Imagine I Code 
+						I Think I Imagine I Code
+
+ My FaceBook https://www.facebook.com/profile.php?id=100003539324701
 
 \************************************************************************/
 import android.content.ContentValues;
