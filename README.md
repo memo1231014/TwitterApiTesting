@@ -25,7 +25,7 @@ https://github.com/ribot/android-guidelines/blob/master/project_and_code_guideli
 About adding multiAccounts my Idea is add button that logout from the current mail and reopen the main screen while i have user keys and usedId so i can save it anywhere say within sqlite and let user go to re login with different account so i have many account within the database user now can choose any of them
 
 
-i many cases because it just for test i only created the main jobs for examples
+i many cases because i only created the main jobs for examples
 what about server error , internet connections error , what about there's no tweets , no follwers , what about banned accounts
 also on i am aware with all test cases but not coverd because this version just for testing 
 
