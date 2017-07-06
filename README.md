@@ -29,6 +29,8 @@ i many cases because i only created the main jobs for examples
 what about server error , internet connections error , what about there's no tweets , no follwers , what about banned accounts
 also on i am aware with all test cases but not coverd because this version just for testing 
 
+Thanks so much have the best days :)
+
 
 
 
